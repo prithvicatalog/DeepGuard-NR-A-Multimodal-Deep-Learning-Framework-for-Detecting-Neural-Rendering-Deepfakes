@@ -1,0 +1,25 @@
+WARNING:root:[DeepGuard-NR] CUDA available: True
+Using cache found in /root/.cache/torch/hub/intel-isl_MiDaS_master
+/usr/local/lib/python3.12/dist-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Using cache found in /root/.cache/torch/hub/rwightman_gen-efficientnet-pytorch_master
+Using cache found in /root/.cache/torch/hub/intel-isl_MiDaS_master
+WARNING:root:[DeepGuard-NR] No trained checkpoint found at models/deepguard_nr_checkpoint.pt — running with untrained baseline weights.
+INFO:     Started server process [725]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Loading weights:  None
+INFO:     127.0.0.1:47474 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:48366 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48378 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:54272 - "POST /auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:47804 - "POST /video/upload HTTP/1.1" 201 Created
+INFO:     127.0.0.1:49738 - "POST /video/analyze HTTP/1.1" 200 OK
+[DeepGuard-NR] Sampled Frames: 100
+[DeepGuard-NR] Selected Frames: 20
+[DeepGuard-NR] artifact module done
+[DeepGuard-NR] depth module done
+[DeepGuard-NR] temporal (mamba) module done
+[DeepGuard-NR] lighting module done
+INFO:     127.0.0.1:52372 - "GET /results/1 HTTP/1.1" 200 OK
