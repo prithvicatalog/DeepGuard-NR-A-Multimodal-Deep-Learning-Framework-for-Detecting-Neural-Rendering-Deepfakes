@@ -1,0 +1,9 @@
+﻿.env
+*.db
+*.log
+__pycache__/
+*.pyc
+storage/uploads/*
+storage/heatmaps/*
+!storage/uploads/.gitkeep
+!storage/heatmaps/.gitkeep
